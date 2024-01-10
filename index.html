@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--<link rel="shortcut icon" href="images/favicon.png" type=""-->
+    <title>Reverso</title>
+    <!-- bootstrap core css -->
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    
+</head>
+<body>
+
+    <h1>Valor médio nacional dos combustíveis</h1>
+
+    <!--<button onclick="btn()" id="botao" class="botao">API</button>-->
+
+    <card>
+        <div class="container1">
+            
+            <img class="background" src="images/Gasolina.jpg" />
+
+            <ul class="conteudo">
+            
+                <li>
+                    <label class="gasolina" for="Gasolina"> Gasolina </label>
+                    <h1>R$ <span class="vgasolina" id="vgasolina"> Carregando... </span></h1>
+                    <h3>Valor por KM <br> R$ <span class="vkmgas" id="vkmgas"> Carregando... </span></h3>
+                </li>
+                <li>
+                    <label class="etanol" for="Etanol"> Etanol </label>
+                    <h1>R$ <span class="vetanol" id="vetanol"> Carregando... </span></h1>
+                    <h3>Valor por KM <br> R$ <span class="vkmetn" id="vkmetn"> Carregando... </span></h3>
+                </li>
+                <li>
+                    <label class="gnv" for="GNV"> GNV </label>
+                    <h1>R$ <span class="vgnv" id="vgnv"> Carregando... </span></h1>
+                    <h3>Valor por KM <br> R$ <span class="vkmgnv" id="vkmgnv"> Carregando... </span></h3>
+                </li>
+
+            </ul>
+
+            <ul class="conteudo2">
+            
+                <li>
+                    <label class="gasolina" for="Gasolina"> Gasolina </label>
+                    <h1><input type="text" class="ValorGasolina" value="Digite Valor"></h1>
+                    <h3>Valor por KM <br> R$ <span class="calcGasolina"> Calculando... </span></h3>
+                </li>
+                <li>
+                    <label class="etanol" for="Etanol"> Etanol </label>
+                    <h1><input type="text" class="ValorEtanol" value="Digite Valor"></h1>
+                    <h3>Valor por KM <br> R$ <span class="calcEtanol"> Calculando... </span></h3>
+                </li>
+                <li>
+                    <label class="gnv" for="GNV"> GNV </label>
+                    <h1><input class="ValorGNV"></h1>
+                    <h3>Valor por KM <br> R$ <span class="calcGNV"> Calculando... </span></h3>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <button onclick="btn()" id="botao" class="botao">Calcular</button>
+        
+    </card>   
+
+            <div class="cpy_">
+                <p class="mx-auto">
+                    2022 All Rights Reserved By <a href="https://reverso.app.br">Rafael Ska.</a><br>
+                </p>
+            </div>
+
+</body>
+
+    <script src="js/main.js" ></script>
+    <script src="js/vComb.js" ></script>
+    
+
+</html>
